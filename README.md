@@ -17,4 +17,3 @@ The following attributes of the network are adjustable:
 * Python 3.10
 * Numpy 1.22.1
 * Pandas
-* Matplotlib
