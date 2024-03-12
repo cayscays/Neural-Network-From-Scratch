@@ -1,10 +1,10 @@
-#
-# Author:       cayscays
-# Date:         December 2021
-# Version:      1
-# Description:  Prepare the data for the nn:
-# Data:         https://github.com/cayscays/oscillators-7x7-dataset-game-of-life
-#
+"""
+Author:       cayscays
+Date:         December 2021
+Version:      1
+Description:  Prepare the data for the nn.
+Data:         https://github.com/cayscays/oscillators-7x7-dataset-game-of-life
+"""
 
 data_not_osci = [[[0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0,
                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0]],
