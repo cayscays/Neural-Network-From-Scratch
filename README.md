@@ -22,4 +22,4 @@ This repository presents a sophisticated Python implementation of a fully connec
 ---
 Thank you for reviewing my neural network and classification projects!
 
-Created by cayscays.
+Created by [cayscays](https://github.com/cayscays/).
