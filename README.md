@@ -1,7 +1,7 @@
 # Advanced Neural Network Implementation
 
 ## Description
-This repository presents a sophisticated Python implementation of a fully connected neural network, created by *cayscays* in December 2021.
+This repository presents a sophisticated Python implementation of a fully connected neural network.
 
 ## Table of Contents
 - [Key Features](#key-features)
@@ -19,3 +19,7 @@ This repository presents a sophisticated Python implementation of a fully connec
 - Pandas
 - Matplotlib
 
+---
+Thank you for reviewing my neural network and classification projects!
+
+Created by cayscays.
