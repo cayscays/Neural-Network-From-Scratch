@@ -1,13 +1,12 @@
-#
-# Author:       cayscays
-# Date:         December 2021
-# Version:      1
-# Description:  Train a neural network to classify oscillators on Conway's game of life.
-#               The network's architecture:
-#                   * Input layer made of 49 neurons.
-#                   * 2 mid-layers of size 7.
-#                   * Output layer made of a single neuron.
-#
+"""
+Author:       cayscays
+Date:         December 2021
+Version:      1
+Description:  Trains a neural network to classify oscillators within Conway's Game of Life. The network architecture comprises:
+              - An input layer consisting of 49 neurons.
+              - Two hidden layers, each with 7 neurons.
+              - An output layer consisting of a single neuron.
+"""
 
 import matplotlib.pyplot as plt
 import pandas as pd
