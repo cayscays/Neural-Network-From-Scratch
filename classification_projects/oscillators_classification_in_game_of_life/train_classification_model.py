@@ -12,9 +12,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 import dataset
-import neural_network as nn
+from neural_network.neural_network import NeuralNetwork
 
-SEED = 10
+SEED = 50
 
 # Network's architecture:
 INPUT_SIZE = [49]
@@ -27,9 +27,9 @@ amount_of_epochs = 30
 batch_size = 1
 
 # Initiate and train the neural network
-nn1 = nn.NeuralNetwork(INPUT_SIZE, HIDDEN_LAYERS_SIZES, LABELS, LEARNING_RATE, amount_of_epochs, batch_size,
-                       dataset.data, SEED)
-nn1.train()
+nn = NeuralNetwork(INPUT_SIZE, HIDDEN_LAYERS_SIZES, LABELS, LEARNING_RATE, amount_of_epochs, batch_size,
+                   dataset.data, SEED)
+nn.train()
 
 # Initiate epochs for the x axes of the graphs
 epochs = []
@@ -39,12 +39,12 @@ for i in range(amount_of_epochs):
 # Plot error and accuracy graphs:
 fig, axs = plt.subplots(1, 2)
 
-error_graph = pd.DataFrame(nn1.errors, epochs)
+error_graph = pd.DataFrame(nn.errors, epochs)
 error_graph.plot(title="Error", kind='line', xlabel='Number of epochs', ax=axs[0], ylabel="Error")
 
-accuracy_graph = pd.DataFrame(nn1.accuracy, epochs)
+accuracy_graph = pd.DataFrame(nn.accuracy, epochs)
 accuracy_graph.plot(title="Accuracy", kind='line', xlabel='Number of epochs', ax=axs[1], ylabel="Accuracy")
 plt.tight_layout()
 plt.show()
 
-print("The test accuracy is " + str(nn1.accuracy['test'][-1]) + "%")
+print("The test accuracy is " + str(nn.accuracy['test'][-1]) + "%")
