@@ -1,20 +1,21 @@
-# neural-networks-from-scratch
+# Advanced Neural Network Implementation
 
-A neural network implemented from scratch. 
+## Description
+This repository presents a sophisticated Python implementation of a fully connected neural network, created by *cayscays* in December 2021.
 
-A training example of this neural network, on classifying [oscillators of Conway's Game of Life](https://github.com/cayscays/oscillators-7x7-dataset-game-of-life).
+## Table of Contents
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used) 
 
---------------------
-The following attributes of the network are adjustable:
-* All layers' sizes and the amount of hidden layers.
-* Learning rate.
-* Amount of epochs.
+## Key Features
+- Flexible network architecture customization, allowing easy adjustment of layer sizes and hidden layers.
+- Adaptive learning rate.
 
---------------------
-![image](https://user-images.githubusercontent.com/116169018/197206468-75d12b22-def3-4568-8677-bf8b47ede4a1.png)
 
-## Versions of resources
-* Python 3.10
-* Numpy 1.22.1
-* Pandas
-* Matplotlib
+## Technologies Used
+- Python 3.10
+- Jupyter
+- Numpy 1.22.1
+- Pandas
+- Matplotlib
+
