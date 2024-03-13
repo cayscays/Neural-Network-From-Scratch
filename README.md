@@ -5,6 +5,7 @@ This repository provides an implementation of a fully connected neural network, 
 
 ## Table of Contents
 - [Key Features](#key-features)
+- [Repository Contents](#repository-contents)
 - [Technologies Used](#technologies-used)
 - [Project 1](#project-1)
 - [Project 2: Oscillators Classification in Game of Life](#project-2-oscillators-classification-in-game-of-life)
@@ -12,6 +13,12 @@ This repository provides an implementation of a fully connected neural network, 
 ## Key Features
 - Flexible network architecture customization, allowing easy adjustment of layer sizes and hidden layers.
 - Adaptive learning rate.
+
+
+## Repository Contents
+1. **neural_network/**: The implementation on the neural network.
+2. **project1/** :
+3. **oscillators_classification_in_game_of_life/**: This project focuses on classifying oscillators within the Game of Life cellular automaton using the neural network.
 
 
 ## Technologies Used
