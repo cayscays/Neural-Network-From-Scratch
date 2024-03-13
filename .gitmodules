@@ -3,3 +3,6 @@
     url = https://github.com/cayscays/oscillators-7x7-dataset-game-of-life
     branch = main
 	tag = 1.0
+[submodule "oscillators_classification_in_game_of_life/data_preprocessing"]
+	path = oscillators_classification_in_game_of_life/data_preprocessing
+	url = https://github.com/cayscays/oscillators-7x7-dataset-game-of-life
