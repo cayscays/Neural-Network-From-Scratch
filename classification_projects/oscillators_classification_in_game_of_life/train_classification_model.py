@@ -14,7 +14,7 @@ import pandas as pd
 import dataset
 from neural_network.neural_network import NeuralNetwork
 
-SEED = 50
+SEED = 10
 
 # Network's architecture:
 INPUT_SIZE = [49]
@@ -23,7 +23,7 @@ LABELS = [1]
 
 # Optimization parameters:
 LEARNING_RATE = 0.5
-amount_of_epochs = 30
+amount_of_epochs = 20
 batch_size = 1
 
 # Initiate and train the neural network
