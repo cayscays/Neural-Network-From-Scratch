@@ -1,4 +1,4 @@
-# Neural Network Implementation and Applications
+# Neural Network from Scratch
 
 ## Description
 This repository provides an implementation of a fully connected neural network, offering flexible customization of network architecture, allowing easy adjustment of layer sizes and hidden layers. As the creator of this repository, I've developed two projects that utilize this neural network for classification tasks. Continue reading for further information.
