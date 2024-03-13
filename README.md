@@ -7,7 +7,7 @@ This repository provides an implementation of a fully connected neural network, 
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Project 1](#project-1)
-- [Project 2: Game of Life Oscillator Classifier](#project-2-game-of-life-oscillator-classifier)
+- [Project 2: Oscillators Classification in Game of Life](#project-2-oscillators-classification-in-game-of-life)
 
 ## Key Features
 - Flexible network architecture customization, allowing easy adjustment of layer sizes and hidden layers.
@@ -23,7 +23,7 @@ This repository provides an implementation of a fully connected neural network, 
 
 ## Project 1:
 
-## Project 2: Game of Life Oscillator Classifier
+## Project 2: Oscillators Classification in Game of Life
 ### Overview:
 The project aims to classify oscillators within Conway's Game of Life. 
 
