@@ -24,6 +24,23 @@ This repository provides an implementation of a fully connected neural network, 
 - Matplotlib
 
 ## Project 1:
+### Overview:
+
+### Dataset Description:
+
+### Data Preprocessing:
+
+### Model Architecture and Training:
+The model architecture is a fully connected neural network trained using backpropagation. It includes the following attributes:
+- Input layer: 22 neurons.
+- Hidden layers: One layer, containing 5 neurons.
+- Output layer: One neuron. 
+- Learning rate: 0.5.
+- Random seed: 10.
+- Epochs: 100.
+- Activation function: Sigmoid.
+
+### Results:
 
 ## Project 2: Oscillators Classification in Game of Life
 ### Overview:
