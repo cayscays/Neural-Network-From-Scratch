@@ -18,7 +18,7 @@ This repository provides an implementation of a fully connected neural network, 
 ## Repository Contents
 1. **neural_network/**: The implementation on the neural network.
 2. **project1/** :
-3. **oscillators_classification_in_game_of_life/**: This project focuses on classifying oscillators within the Game of Life cellular automaton using the neural network.
+3. **oscillators_classification_in_game_of_life/**: This project focuses on classifying oscillators within a cellular automaton using the neural network.
 
 
 ## Technologies Used
