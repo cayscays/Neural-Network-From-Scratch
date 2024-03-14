@@ -7,7 +7,17 @@ This repository provides an implementation of a fully connected neural network, 
 - [Repository Contents](#repository-contents)
 - [Technologies Used](#technologies-used)
 - [Project 1](#project-1)
+  - Overview
+  - Dataset Description
+  - Data Preprocessing
+  - Model Architecture and Training
+  - Results
 - [Project 2: Oscillators Classification in Game of Life](#project-2-oscillators-classification-in-game-of-life)
+  - Overview
+  - Dataset Description
+  - Data Preprocessing
+  - Model Architecture and Training
+  - Results
 
 
 ## Repository Contents
