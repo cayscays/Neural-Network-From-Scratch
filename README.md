@@ -6,7 +6,7 @@ This repository provides an implementation of a fully connected neural network, 
 ## Table of Contents
 - [Repository Contents](#repository-contents)
 - [Technologies Used](#technologies-used)
-- [Project 1](#project-1)
+- [Project 1: Chronic Kidney Disease Classification](#project-1-chronic-kidney-disease-classification)
   - Overview
   - Dataset Description
   - Data Preprocessing
@@ -33,10 +33,12 @@ This repository provides an implementation of a fully connected neural network, 
 - Pandas
 - Matplotlib
 
-## Project 1:
+## Project 1: Chronic Kidney Disease Classification
 ### Overview:
+This project focuses on classifying Chronic Kidney Disease (CKD) in individuals. The classification result will be true for CKD cases and false for non-CKD cases.
 
 ### Dataset Description:
+Chronic Kidney Disease dataset by L. Rubini, P. Soundarapandian, and P. Eswaran, donated on 7/2/2015. Retrieved from https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease. Licensed under CC BY 4.0. 
 
 ### Data Preprocessing:
 
