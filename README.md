@@ -57,6 +57,8 @@ After training the neural network, a test accuracy of 95.36082474226805% was ach
 
 <img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/ebcd4545-0bfc-4b8d-a8b4-5c1e848d0546"  height="250">
 
+<img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/dfc43348-aa8b-4e86-a6d5-6be8d9a65bc5"  height="250">
+
 ************************************ TP/ׂTP+FN is 0.9205020920502092
 
 ## Project 2: Oscillators Classification in Game of Life
