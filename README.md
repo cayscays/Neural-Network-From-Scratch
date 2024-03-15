@@ -43,7 +43,6 @@ Chronic Kidney Disease dataset by L. Rubini, P. Soundarapandian, and P. Eswaran,
 
 ### Data Preprocessing:
 
-#### Data Cleaning
 - **Anomaly Detection and Removal**: Less than 3% of the dataset contained entries with irregular values, which were deemed unsuitable for analysis and were subsequently removed to ensure data integrity.
   
 - **Handling Missing Values**: Over 30% of the dataset had missing values. I used Weka to visualize the data, where linear relationships between attributes were observed. Due to its significant missing values (32.13%), the attribute "rbcc" was removed, as it displayed an almost linear relationship with "hemo" and "pcv". Similarly, the attributes "pcv" (17.22% missing) and "hemo" (12.85% missing) also showed an almost linear relationship, therefore I removed "pcv" as well. Please refer to the accompanying graphs for a visual representation
@@ -52,10 +51,8 @@ Chronic Kidney Disease dataset by L. Rubini, P. Soundarapandian, and P. Eswaran,
 
   <img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/eea00e4d-fbeb-4389-b373-2b3fdebaf705"  height="100">
 
-### Data Imputation
 - **Missing Values Replacement**: The missing values in the dataset were replaced using the "ReplaceMissingValues" filter in Weka to ensure comprehensive data utilization while mitigating the impact of missing entries.
 
-### Feature Engineering
 - **Data Discretization**: Weka's functionality was utilized for data discretization, which involved grouping continuous attribute values into intervals to facilitate analysis and interpretation.
 
 
