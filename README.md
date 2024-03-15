@@ -44,7 +44,7 @@ Chronic Kidney Disease dataset by L. Rubini, P. Soundarapandian, and P. Eswaran,
 
 ### Model Architecture and Training:
 The model architecture is a fully connected neural network trained using backpropagation. It includes the following attributes:
-- Input layer: 22 neurons.
+- Input layer: 22 neurons representing the features of the input data.
 - Hidden layers: One layer, containing 5 neurons.
 - Output layer: One neuron. 
 - Learning rate: 0.5.
@@ -54,9 +54,10 @@ The model architecture is a fully connected neural network trained using backpro
 
 ### Results:
 
-- **Test Accuracy**: After training the neural network, a test accuracy of 95.36% was achieved. This high accuracy demonstrates the effectiveness of the model in classifying CKD cases, indicating its reliability in distinguishing between CKD and non-CKD individuals.
+- **Test Accuracy**: After training the neural network, a test accuracy of 95.36% was achieved. This high accuracy demonstrates the effectiveness of even a small neural network in classifying CKD cases.
 
-- **Sensitivity (True Positive Rate)**: The sensitivity of 0.9205 suggests that the model correctly identifies approximately 92.05% of individuals with Chronic Kidney Disease (CKD) out of all individuals who actually have CKD. The most critical aspect of sensitivity for this classification task is its ability to ensure that individuals with CKD are correctly identified, thereby preventing missed diagnoses and enabling timely treatment. Therefore this value indicates room for improvement.
+
+- **Sensitivity (True Positive Rate)**: The sensitivity of 0.9205 suggests that the model correctly identifies approximately 92.05% of individuals with CKD out of all individuals who actually have CKD. The most critical aspect of sensitivity for this classification task is its ability to ensure that individuals with CKD are correctly identified, thereby preventing missed diagnoses and enabling timely treatment. Therefore this value indicates room for improvement.
 
 - **Overfitting**: No overfitting was observed in the training process. Please refer to the accompanying graphs for a visual representation of the training and test performance.
 
@@ -88,7 +89,9 @@ The model architecture is a fully connected neural network trained using backpro
 - Activation function: Sigmoid.
 
 ### Results:
-After running the neural network for 20 epochs, a test accuracy of 97.25806451612902% was achieved. This indicates the model's effectiveness in classifying 7x7 oscillators within Conway's Game of Life. The high accuracy attained demonstrates the capability of even a small neural network to learn and generalize patterns.
+- **Test Accuracy**: After running the neural network for 20 epochs, a test accuracy of 97.26% was achieved. This indicates the model's effectiveness in classifying 7x7 oscillators within Conway's Game of Life. The high accuracy attained demonstrates the capability of even a small neural network to learn and generalize patterns.
+
+- **Overfitting**: No overfitting was observed in the training process. Please refer to the accompanying graphs for a visual representation of the training and test performance.
 
 <img src="oscillators_classification_in_game_of_life/raw_results/accuracy%20and%20error.png"  height="250">
 
