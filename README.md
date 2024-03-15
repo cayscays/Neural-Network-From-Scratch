@@ -5,6 +5,7 @@ This repository provides an implementation of a fully connected neural network, 
 
 ## Table of Contents
 - [Repository Contents](#repository-contents)
+- [Features]
 - [Technologies Used](#technologies-used)
 - [Project 1: Chronic Kidney Disease Classification](#project-1-chronic-kidney-disease-classification)
   - Overview
@@ -25,14 +26,9 @@ This repository provides an implementation of a fully connected neural network, 
 2. **chronic_kidney_disease_classification/** : This project focuses on classifying Chronic Kidney Disease in individuals using my neural network.
 3. **oscillators_classification_in_game_of_life/**: This project focuses on classifying oscillators within a cellular automaton using my neural network.
 
-
 ## Technologies Used
-- Python 3.10
-- Jupyter
-- Numpy 1.22.1
-- Pandas
-- Matplotlib
-- Weka
+- Python 3.10, Jupyter, Numpy 1.22.1, Pandas, Matplotlib, and Weka.
+
 ---
 
 ## Project 1: Chronic Kidney Disease Classification
