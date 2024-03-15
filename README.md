@@ -55,7 +55,15 @@ Chronic Kidney Disease dataset by L. Rubini, P. Soundarapandian, and P. Eswaran,
 
 - **Data Discretization**: Weka's functionality was utilized for data discretization, which involved grouping continuous attribute values into intervals to facilitate analysis and interpretation.
 
-- 
+The final stage of data preprocessing involved preparing the dataset for input into my neural network. Given the requirement for values within the range of [0,1] in the input layer of the neural network, the following transformations were applied:
+
+- **Binary Features**: Values corresponding to binary features were transformed to 0 or 1:
+  - Changed "notckd", "normal", "no", "notpresent", "good" to 0.
+  - Changed "ckd", "yes", "abnormal", "present", "poor" to 1.
+
+- **Continuous Features**: For features with numerical ranges (after discretization), the first number of each range was extracted and scaled to the range of 0 to 1 using the formula 1/original_value.
+
+This normalization process was implemented using Python. You can find the code for this preprocessing step [here](link_to_code).
 
 
 ### Model Architecture and Training:
