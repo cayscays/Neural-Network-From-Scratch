@@ -48,9 +48,7 @@ Chronic Kidney Disease dataset by L. Rubini, P. Soundarapandian, and P. Eswaran,
   
 - **Handling Missing Values**: Over 30% of the dataset had missing values. I used Weka to visualize the data, where linear relationships between attributes were observed. Due to its significant missing values (32.13%), the attribute "rbcc" was removed, as it displayed an almost linear relationship with "hemo" and "pcv". Similarly, the attributes "pcv" (17.22% missing) and "hemo" (12.85% missing) also showed an almost linear relationship, therefore I removed "pcv" as well. Please refer to the accompanying graphs for a visual representation
 
-  <img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/c10533da-ec10-4b88-8ffe-1a141fb6f71b"  height="100">
-
-  <img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/eea00e4d-fbeb-4389-b373-2b3fdebaf705"  height="100">
+  <img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/c10533da-ec10-4b88-8ffe-1a141fb6f71b"  height="100">  <img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/eea00e4d-fbeb-4389-b373-2b3fdebaf705"  height="100">
 
 - **Missing Values Replacement**: The missing values in the dataset were replaced using the "ReplaceMissingValues" filter in Weka to ensure comprehensive data utilization while mitigating the impact of missing entries.
 
