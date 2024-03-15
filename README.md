@@ -69,7 +69,7 @@ This normalization process was implemented using Python. You can find the code f
 
 ### Model Architecture and Training:
 The model architecture is a fully connected neural network trained using backpropagation. It includes the following attributes:
-- Input layer: 22 neurons representing the features of the input data.
+- Input layer: 22 neurons representing the attributes of the input data.
 - Hidden layers: One layer, containing 5 neurons.
 - Output layer: One neuron. 
 - Learning rate: 0.5.
