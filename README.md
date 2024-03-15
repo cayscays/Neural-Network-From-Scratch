@@ -32,7 +32,7 @@ This repository provides an implementation of a fully connected neural network, 
 - Numpy 1.22.1
 - Pandas
 - Matplotlib
-
+---
 ## Project 1: Chronic Kidney Disease Classification
 ### Overview:
 This project focuses on classifying Chronic Kidney Disease (CKD) in individuals. The classification result will be true for CKD cases and false for non-CKD cases.
@@ -60,7 +60,7 @@ After training the neural network, a test accuracy of 95.36082474226805% was ach
 <img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/dfc43348-aa8b-4e86-a6d5-6be8d9a65bc5"  height="250">
 
 ************************************ TP/ׂTP+FN is 0.9205020920502092
-
+---
 ## Project 2: Oscillators Classification in Game of Life
 ### Overview:
 The project aims to classify oscillators within Conway's Game of Life. 
