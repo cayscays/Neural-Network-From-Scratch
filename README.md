@@ -53,13 +53,19 @@ The model architecture is a fully connected neural network trained using backpro
 - Activation function: Sigmoid.
 
 ### Results:
-After training the neural network, a test accuracy of 95.36082474226805% was achieved. This indicates the model's effectiveness in classifying CKD. 
 
-<img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/ebcd4545-0bfc-4b8d-a8b4-5c1e848d0546"  height="250">
+- **Test Accuracy**: After training the neural network, a test accuracy of 95.36% was achieved. This high accuracy demonstrates the effectiveness of the model in classifying CKD cases, indicating its reliability in distinguishing between CKD and non-CKD individuals.
 
-<img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/dfc43348-aa8b-4e86-a6d5-6be8d9a65bc5"  height="250">
+- **Sensitivity**: The most important aspect of sensitivity for this classification task is its ability to correctly classify positive cases, ensuring that individuals with the condition are not missed, thereby preventing delayed treatment. False positives, while still important, could undergo further testing to confirm their positive or negative status, while false negative are less likely to undergo further testing.
 
-************************************ TP/ׂTP+FN is 0.9205020920502092
+- **Overfitting**: No overfitting was observed in the training process. Please refer to the accompanying graphs for a visual representation of the training and test performance.
+
+
+<img src="chronic_kidney_disease_classification/raw_results/accuracy.png"  height="200">
+
+<img src="chronic_kidney_disease_classification/raw_results/error.png"  height="200">
+
+
 ---
 ## Project 2: Oscillators Classification in Game of Life
 ### Overview:
@@ -84,7 +90,7 @@ The model architecture is a fully connected neural network trained using backpro
 ### Results:
 After running the neural network for 20 epochs, a test accuracy of 97.25806451612902% was achieved. This indicates the model's effectiveness in classifying 7x7 oscillators within Conway's Game of Life. The high accuracy attained demonstrates the capability of even a small neural network to learn and generalize patterns.
 
-<img src="https://github.com/cayscays/neural-network-from-scratch/assets/116169018/0ef775ea-6ce7-4a01-9b4f-902925f3d693"  height="250">
+<img src="oscillators_classification_in_game_of_life/raw_results/accuracy%20and%20error.png"  height="250">
 
 
 ---
