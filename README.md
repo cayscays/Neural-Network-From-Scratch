@@ -66,7 +66,7 @@ The model architecture is a fully connected neural network trained using backpro
 - Hidden layers: One layer, containing 5 neurons.
 - Output layer: One neuron. 
 - Learning rate: 0.5.
-- Random seed: 10.
+- Random seed: 90.
 - Epochs: 100.
 - Activation function: Sigmoid.
 
