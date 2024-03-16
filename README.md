@@ -26,7 +26,7 @@ This repository provides an implementation of a fully connected neural network, 
 3. [**oscillators_classification_in_game_of_life**](https://github.com/cayscays/neural-network-from-scratch/tree/main/oscillators_classification_in_game_of_life): This project focuses on classifying oscillators within a cellular automaton using my neural network.
 
 ## Technologies Used
-- Python 3.10, Jupyter, Numpy 1.22.1, Pandas, Matplotlib, and Weka.
+- Python 3.10, Jupyter Notebook, Numpy 1.22.1, Pandas, Matplotlib, and Weka.
 
 ---
 
